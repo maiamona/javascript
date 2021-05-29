@@ -1,0 +1,286 @@
+* {
+    padding: 0px;
+    margin: 0px;
+ }
+ 
+ body {
+    background: url(imgs/bg_pagina_167x167.jpg);
+    font-family: Arial, verdana, georgia;
+    font-size: 14px;
+    color: black;
+ }
+ 
+ div {
+    display: table;
+    width: 100%;
+ }
+ 
+ p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ 
+ a:link {
+    color:#0059B2;
+    text-decoration: none;
+ }
+ 
+ /* estrutura do layout */
+ .container {
+    display: block;
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .container .row {
+    display: table;
+    width: 100%;
+ }
+ 
+ .coluna_logomarca {
+    width: 270px;
+    float: left;
+    margin-top: 15px;
+ }
+ 
+ .coluna_menu {
+    width: 647px;
+    float: right;
+ }
+ 
+ .coluna_areaNoticias {
+    float:left;
+    width: 456px;
+ }
+ 
+ .coluna_areaProdutos {
+    float: right;
+    width: 456px;
+ }
+ 
+ .coluna_produto01 {
+    float: left;
+    width: 220px;
+ }
+ 
+ .coluna_produto02 {
+    float: right;
+    width: 220px;
+ }
+ 
+ /* definiçoes de menu */
+ .container_menu {
+    background: url(imgs/bg_menu_1x49.jpg) top repeat-x;
+    box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+    -moz-box-shadow: 5px 5px 5px black;
+    -o-box-shadow: 5px 5px 5px black;
+    margin-top: 15px;
+ }
+ 
+ .container_menu a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 16px 20px;
+    color: black;
+    transition: background 0.6s ease-out, color 0.6s ease-out;
+    -webkit-transition: background 0.6s ease-out, color 0.6s ease-out;
+    -moz-transition: background 0.6s ease-out, color 0.6s ease-out;
+    -o-transition: background 0.6s ease-out, color 0.6s ease-out;
+ }
+ 
+ .container_menu a:hover {
+    color: white;
+    background: #879B25;
+    /* background: url(imgs/bg_menu_hover_1x49.jpg) top repeat-x; */
+ }
+ 
+ .container_menu a:first-child {
+    margin-left: 6px;
+ }
+ 
+ .iconeInicial {
+    width: 221px;
+    float: left;
+    margin: 8px;
+ }
+ 
+ .iconeInicial:first-child {
+    margin-left: 0px;
+ }
+ 
+ .iconeInicial:last-child {
+    margin-right: 0px;
+ }
+ 
+ .icone, .tituloIcone {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+ }
+ 
+ .rodape {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+ /* definiçoes do slider */
+ 
+ #containerSlider {
+    width: 925px;
+    height: 295px;
+    overflow: hidden;
+    box-shadow: 1px 1px 8px black, -1px -1px 8px black;
+    -webkit-box-shadow: 1px 1px 8px black, -1px -1px 8px black;
+    -moz-box-shadow: 1px 1px 8px black, -1px -1px 8px black;
+    -o-box-shadow: 1px 1px 8px black, -1px -1px 8px black;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ /*  classes de uso geral */
+ 
+ .titulo {
+    font-size:23px;
+    padding-bottom: 10px;
+    border-bottom:1px dashed #BCBCBC;
+ }
+ 
+ h1.titulo {
+    border-bottom:1px dashed #BCBCBC;
+ }
+ 
+ .bordaArredondada {
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -o-border-radius:8px;
+ }
+ 
+ .divBordaCinzaVazada {
+    border: 1px solid #BCBCBC;
+ }
+ 
+ .efeitoHover {
+    transition: background 0.6s ease-out, color 0.6s ease-out;
+    -webkit-transition: background 0.6s ease-out, color 0.6s ease-out;
+    -moz-transition: background 0.6s ease-out, color 0.6s ease-out;
+    -o-transition: background 0.6s ease-out, color 0.6s ease-out;
+ }
+ 
+ .efeitoHover:hover {
+    /* background: url(imgs/bg_branco_transp.png); */
+    background: white;
+ }
+ 
+ .marginInterna {
+    margin: 6px;
+    width: 97%;
+ }
+ 
+ .fundoBrancoTransp {
+    background: url(border2.png);
+ }
+ 
+ /* espa&#65533;amento inferior */
+ .ei {
+    margin-bottom:22px;
+ }
+ 
+ /* pagina interna */
+ .thumbnail , .thumbnail-right {
+    padding: 5px;
+    border: 1px solid gray;
+ }
+ 
+ .thumbnail {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+ 
+ .thumbnail-right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }
+ 
+ .paginaInterna p {
+    text-align: justify;
+ }
+ 
+ /* slider */
+ #wrapper {
+    width: 925px;
+    height: 295px;
+    margin: 0 0 0 -462px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+ }
+ #images {
+    width: 925px;
+    height: 295px;
+ }
+ #images img {
+    display: block;
+    float: left;
+ }
+ #timer,
+ #captions {
+    background: url(imgs/bg_vermelho_transp.png);
+    width: 925px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ }
+ #timer {
+    background: rgba( 200, 0, 0, 0.5 );
+ }
+ #captions .carousel > div {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 52px;
+    text-transform: uppercase;
+    text-indent: 50px;
+    width: 925px;
+    height: 50px;
+    float: left;
+ }
+ .pager {
+    padding: 16px 50px 0 0;
+    float: right;
+ }
+ .pager a {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: none;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+ }
+ .pager a:hover {
+    background: rgba( 255, 255, 255, 0.3 );
+ }
+ .pager a.selected {
+    background: #fff;
+ }
+ .cod .pager .p1,
+ .cod .pager .p2,
+ .cod .pager .p3,
+ .gta .pager .p4,
+ .gta .pager .p5,
+ .gta .pager .p6,
+ .mgs .pager .p7,
+ .mgs .pager .p8,
+ .mgs .pager .p9 {
+    display: inline-block;
+ }
