@@ -1,1 +1,3 @@
 # javascript
+
+apenas códigos javascript
